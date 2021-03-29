@@ -1,0 +1,241 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  height: 50rem;
+}
+
+.dark-mode-body {
+  background-color: hsl(230, 17%, 14%);
+  color: white;
+}
+
+h1 {
+  font-size: 3.5rem;
+      margin: 1.5rem auto 0;
+color: hsl(0, 0%, 100%);
+}
+
+.background {
+background-color: hsl(232, 19%, 15%);
+  height: 15rem;
+}
+
+.container {
+  position: relative;
+    bottom: 15rem;
+  margin: 2rem 6rem;
+}
+
+.dashboard {
+font-size: 14px;
+margin-bottom: 3rem;
+}
+
+.dashboard-left {
+  display: inline-block;
+}
+
+.social-media {
+  margin: 0;
+font-size: 2rem;
+}
+
+.total {
+margin: 0.2rem 0;
+color: hsl(228, 34%, 66%);
+}
+
+.dashboard-right {
+  display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+.dark-mode {
+  display: inline-block;
+      vertical-align: middle;
+      margin-right: 1rem;
+}
+
+.slider {
+  width: 3rem;
+  height: 1.5rem;
+  background: linear-gradient(90deg, hsl(210, 78%, 56%) 0%, hsl(146, 68%, 55%) 100%);
+  display: inline-block;
+  border-radius: 1rem;
+      vertical-align: middle;
+      cursor: pointer;
+}
+
+.slider-button {
+  width: 1.2rem;
+height: 1.1rem;
+background-color: hsl(232, 19%, 15%);
+border-radius: 1rem;
+position: relative;
+left: 0.1rem;
+top: 0.2rem;
+}
+
+.main-body {
+margin-bottom: 3rem;
+}
+
+.card {
+  background-color: hsl(228, 28%, 20%);
+  height: 14rem;
+    width: 22%;
+    display: inline-block;
+    border-radius: 2%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    color: hsl(228, 34%, 66%);
+    cursor: pointer;
+}
+
+.card-hover:hover {
+  background-color: rgb(51, 58, 86);
+}
+
+.marg {
+  margin-right: 3.59%;
+}
+
+.card-lining {
+  height: 0.15rem;
+  background-color: red;
+}
+
+.facebook {
+  background-color: hsl(208, 92%, 53%);
+}
+
+.twitter {
+ background-color: hsl(203, 89%, 53%);
+}
+
+.instagram {
+  background: linear-gradient(90deg, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%);
+}
+
+.card-xx {
+  margin-top: 2rem;
+}
+
+.card-logo {
+  vertical-align: middle;
+  margin-right: 0.3rem;
+}
+
+.card-username {
+display: inline-block;
+margin: 0;
+vertical-align: middle;
+font-weight: 700;
+}
+
+.card-text {
+  margin-top: 0;
+  letter-spacing: 0.3rem;
+}
+
+.up {
+vertical-align: middle;
+margin-right: 0.1rem;
+}
+
+.yy-text {
+display: inline-block;
+vertical-align: middle;
+color: hsl(163, 72%, 41%);
+font-weight: 700;
+}
+
+.red {
+  color: hsl(348, 97%, 39%);
+}
+
+.overview {
+  margin-bottom: 2rem;
+}
+.sub-card {
+  text-align: left;
+  height: 7rem;
+}
+
+.white {
+  color: white;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.top {
+      margin: 1.5rem 1.5rem 1rem;;
+      position: relative;
+}
+
+.bottom {
+      margin: 1rem 1.5rem;
+      position: relative;
+}
+
+.abs {
+  position: absolute;
+  right: 0;
+}
+
+#marg-top {
+  margin-top: 0.3rem;
+  font-size: 1.5rem;
+}
+
+#right {
+  margin-right: 0;
+}
+
+.bottom-sub-card {
+  margin-top: 2rem;
+}
+
+.attribution {
+  margin-top: 2rem;
+}
+
+/* light-mode */
+
+.body-light-mode {
+  background-color: hsl(0, 0%, 100%);
+  color: white;
+}
+
+.background-light-mode {
+  background-color: hsl(225, 100%, 98%);
+}
+
+.h1-light-mode {
+  background-color: hsl(230, 17%, 14%);
+}
+
+.social-media-light-mode {
+  color: hsl(230, 17%, 14%);
+}
+
+.total-light-mode {
+  color: hsl(228, 12%, 44%);
+}
+
+.card-light-mode {
+  background-color: hsl(227, 47%, 96%);
+  color: hsl(228, 12%, 44%);
+}
+
+.card-light-mode:hover {
+  background-color: rgb(226, 227, 241);
+}
+
+@media (max-width:375px) {
+  
+}
